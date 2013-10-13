@@ -1,0 +1,20 @@
+PHOTOBIN - SETUP (debian example)
+
+
+- place photobin2 folder to web server document root (for example /var/www/)
+	
+	and set it as the new document root (/var/www/photobin2/),  web server's options
+
+- close file indexing, web server's options
+
+- place config.inc.php behind the document root (/var/www/config.inc.php), and edit it properly
+
+- place mysqli_connect.php behind the document root (/var/www/mysqi_connect.php), and edit it properly
+
+- place the user_space folder (users' private space) behind the document root and change its owner to www-data 
+
+	the users' public space is at /photobin2/user_space, change its owner to www-data
+
+- use the localhost.sql to setup the mysql database or use phpmyadmin to import it
+
+- do something nice for yourself
