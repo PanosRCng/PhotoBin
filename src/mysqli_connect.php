@@ -1,7 +1,7 @@
 <?php
 
-DEFINE ('DB_USER', 'root');
-DEFINE ('DB_PASSWORD', 'root');
+DEFINE ('DB_USER', 'xxxxxxxxxx');
+DEFINE ('DB_PASSWORD', 'xxxxxxxx');
 DEFINE ('DB_HOST', 'localhost');
 DEFINE ('DB_NAME', 'photobin_db');
 
